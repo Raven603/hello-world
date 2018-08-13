@@ -19,3 +19,5 @@
 00 00 * * * cd /home/hzn/scrape_social_media_in_area && . env/bin/activate && ./print_table_counts.py >> /home/hzn/pg_log.txt
 12 0-23/6 * * * cd /home/hzn/scrape_social_media_in_area && . env/bin/activate && python ./notify_if_broken.py
 00 07 * * * cd /home/hzn/scrape_social_media_in_area && ./backup.sh >> backup.log
+
+###NEW LINE ADDED###
